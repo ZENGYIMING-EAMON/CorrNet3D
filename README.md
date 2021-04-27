@@ -30,12 +30,12 @@ You can download the dataset we used in the paper:
 To test on the whole testing set, run:
 
     uncomment 'cli_main_test_()' in lit_corrnet3d_clean.py
-    python lit_corrnet3d_clean.py --gpus=3 --batch_size=1 --ckpt_user=lightning_logs/version_114/checkpoints/epoch=43-step=202399.ckpt --data_dir=./data_training_230000_1024_3.h5 --test_data_dir=./testset_with_soft_for_SURREAL_pair_without_replace_full_permute.h5
+    python lit_corrnet3d_clean.py --gpus=3 --batch_size=1 --ckpt_user=lightning_logs/version_114/checkpoints/epoch=43-step=202399.ckpt --data_dir=./trainset.h5 --test_data_dir=./testset.h5
 
 To train the network, run:
 
     uncomment 'cli_main()' in lit_corrnet3d_clean.py
-    python lit_corrnet3d_clean.py --gpus=3 --batch_size=20 --data_dir=/home/zeng_19/data/data/4_Correspondence/data_training_230000_1024_3.h5 --test_data_dir=./testset_with_soft_for_SURREAL_pair_without_replace_full_permute.h5
+    python lit_corrnet3d_clean.py --gpus=3 --batch_size=20 --data_dir=./trainset.h5 --test_data_dir=./testset.h5
 
 
 
@@ -49,11 +49,3 @@ Please cite this paper with the following bibtex:
         booktitle = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition (CVPR)},
         year      = {2021}
     }
-
-
-
-
-
-
-
-
