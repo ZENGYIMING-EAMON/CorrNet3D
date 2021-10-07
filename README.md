@@ -20,12 +20,17 @@ The code has been tested with Python3.8, pytorch-lightning 1.1.6 and Cuda 10.2:
 ### Pre-trained Models
 Download the [pre-trained folder](https://drive.google.com/drive/folders/1YZknEowKevKifb1eTJWwLs5Z5YJeSUQH?usp=sharing) and put the folder under the corrnet3d folder. 
 
-### Datasets
+### Datasets (same .h5 for both non-rigid & rigid case)
 We provide the .h5 dataset, inherited from the main train/test dataset from 3d-coded. 
 You can download the dataset we used in the paper:
 
 - [train.h5](https://drive.google.com/file/d/1iC6A2nIMLNC0et_56-ndEELeBvhs7rsC/view?usp=sharing)
 - [test.h5](https://drive.google.com/file/d/1E_gR-4rLKstYiBFWGw9sJ-3uGMcyAa04/view?usp=sharing)
+
+### Additional dataset for SHREC (for non-rigid test only)
+
+- [tar file](https://drive.google.com/file/d/1tw7IrFiuEA9-MEgry5bZ5hQiXBw_IMHn/view?usp=sharing)
+
 ### Train & Test
 To test on the whole testing set, run:
 
