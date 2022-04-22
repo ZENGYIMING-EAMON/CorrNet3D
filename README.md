@@ -3,8 +3,8 @@
 Official implementation of our work as described in [CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds](https://arxiv.org/abs/2012.15638) (CVPR'21)
 
 ## Note
-Since pytorch-lightning is updating, it's the most convenient for us to use the specific old version (download from their release) instead of the newest one.
-Python3.8, pytorch-lightning 1.1.6, pytorch 1.6.0, cudatoolkit 10.2, Cuda 10.2 (on RTX 2080 Ti) and Ubuntu 18.04.3 LTS (x86_64)
+2022-04: Since pytorch-lightning is updating, it's the most convenient for us to use the specific old version (download from their release) instead of the newest one.
+Version info: Python3.8, pytorch-lightning 1.1.6, pytorch 1.6.0, cudatoolkit 10.2, Cuda 10.2 (on RTX 2080 Ti) and Ubuntu 18.04.3 LTS (x86_64)
 
 ## Prerequisite Installation
 The code has been tested with Python3.8, pytorch-lightning 1.1.6 and Cuda 10.2:
